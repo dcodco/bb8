@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="Page-1" id="IMtHU40hBvm3brHOVwih">
+    <mxGraphModel dx="1008" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-6" value="WebSocket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hBr6q3vLRT9I91qJ1tEt-1" target="hBr6q3vLRT9I91qJ1tEt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-1" value="WebServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-7" value="Bluetooth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hBr6q3vLRT9I91qJ1tEt-2" target="hBr6q3vLRT9I91qJ1tEt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-2" value="BB8 gateway (Bluetooth)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-3" value="BB8" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-5" value="API REST" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hBr6q3vLRT9I91qJ1tEt-4" target="hBr6q3vLRT9I91qJ1tEt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-4" value="Amelia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-9" value="Raspberry" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-10" value="Commandes BB8&lt;div&gt;&lt;ul&gt;&lt;li&gt;Color&lt;/li&gt;&lt;li&gt;Avance&lt;/li&gt;&lt;li&gt;Recul&lt;/li&gt;&lt;li&gt;Tourne&lt;/li&gt;&lt;li&gt;DitOui&lt;/li&gt;&lt;li&gt;DitNon&lt;/li&gt;&lt;li&gt;(Danse)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-11" value="ToDo&lt;div&gt;&lt;ul&gt;&lt;li&gt;Hamza: develop BB8 BLE gateway&lt;/li&gt;&lt;li&gt;Damien: develop WebServer APIs&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-12" value="&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgba(0, 0, 0, 0.87); font-family: &amp;quot;Google Sans&amp;quot;; background-color: rgb(255, 255, 255);&quot; data-message-id=&quot;spaces/FT4gaSG-hwsB/messages/1749567077827535&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; border-radius: 0.25rem;&quot; class=&quot;jO4O1&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgb(31, 31, 31); font-size: 0.8125rem; line-height: 1.25rem; padding-left: 1rem; padding-right: 1rem; position: relative; white-space-collapse: preserve; overflow-wrap: break-word;&quot; class=&quot;ptNLrf&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;Pour Bluetooth&lt;/div&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;a style=&quot;-webkit-tap-highlight-color: transparent; font-size: 0.8125rem; color: rgb(11, 87, 208);&quot; href=&quot;https://github.com/hamzaKhelf/cylon-ble&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot; class=&quot;owrQq&quot;&gt;https://github.com/hamzaKhelf/cylon-ble&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; padding-left: 1rem; padding-right: 1rem;&quot; class=&quot;AFCrOe&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgba(0, 0, 0, 0.87); font-family: &amp;quot;Google Sans&amp;quot;; background-color: rgb(255, 255, 255);&quot; data-message-id=&quot;spaces/FT4gaSG-hwsB/messages/1749567093735343&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; border-radius: 0.25rem;&quot; class=&quot;jO4O1&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgb(31, 31, 31); font-size: 0.8125rem; line-height: 1.25rem; padding-left: 1rem; padding-right: 1rem; position: relative; white-space-collapse: preserve; overflow-wrap: break-word;&quot; class=&quot;ptNLrf&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;a style=&quot;-webkit-tap-highlight-color: transparent; font-size: 0.8125rem; color: rgb(11, 87, 208);&quot; href=&quot;https://operasoftware.github.io/bb8/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot; class=&quot;owrQq&quot;&gt;https://operasoftware.github.io/bb8/&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; padding-left: 1rem; padding-right: 1rem;&quot; class=&quot;AFCrOe&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgba(0, 0, 0, 0.87); font-family: &amp;quot;Google Sans&amp;quot;; background-color: rgb(255, 255, 255);&quot; data-message-id=&quot;spaces/FT4gaSG-hwsB/messages/1749567101410703&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; border-radius: 0.25rem;&quot; class=&quot;jO4O1&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent; color: rgb(31, 31, 31); font-size: 0.8125rem; line-height: 1.25rem; padding-left: 1rem; padding-right: 1rem; position: relative; white-space-collapse: preserve; overflow-wrap: break-word;&quot; class=&quot;ptNLrf&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;a style=&quot;-webkit-tap-highlight-color: transparent; font-size: 0.8125rem; color: rgb(11, 87, 208);&quot; href=&quot;https://github.com/operasoftware/bb8?tab=readme-ov-file&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot; class=&quot;owrQq&quot;&gt;https://github.com/operasoftware/bb8?tab=readme-ov-file&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;-webkit-tap-highlight-color: transparent;&quot;&gt;&lt;a style=&quot;-webkit-tap-highlight-color: transparent; outline: rgb(59, 153, 252) solid 0.3125rem; outline-offset: 2px; color: rgb(11, 87, 208);&quot; href=&quot;https://github.com/operasoftware/bb8/blob/gh-pages/main.js&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot; class=&quot;owrQq&quot;&gt;https://github.com/operasoftware/bb8/blob/gh-pages/main.js&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hBr6q3vLRT9I91qJ1tEt-13" value="GitHub" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
